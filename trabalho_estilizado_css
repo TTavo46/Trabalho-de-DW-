@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trablaho</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+      rel="stylesheet">
+
+    <style>
+      body {
+        font-family: "Source Serif 4", serif;
+        margin: 20px;
+        line-height: 1.6;
+        font-size: 18px;
+      }
+      #imagem1 {
+        float: right;
+        margin-left: 20px;
+        width: 270px;
+        height: 135px;
+        box-shadow: inset 3px 0 10px #a7c1a8;
+        padding: 5px;
+        border-radius: 10px;
+      }
+
+      #imagem2 {
+        float: right;
+        margin-left: 10px;
+        width: 310px;
+        height: 180px;
+        box-shadow: inset 3px 0 10px #a7c1a8;
+        padding: 5px;
+        border-radius: 10px;
+      }
+
+      #imagem3 {
+        width: 190px;
+        height: 110px;
+        box-shadow: inset 3px 0 10px #a7c1a8;
+        padding: 5px;
+        border-radius: 10px;
+      }
+
+      #imagem4 {
+        float: right;
+        margin-left: 10px;
+        width: 250px;
+        height: 120px;
+        box-shadow: inset 3px 0 10px #a7c1a8;
+        padding: 5px;
+        border-radius: 10px;
+      }
+
+      .alinhar5 {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+      }
+
+      #imagem5 {
+        width: 370px;
+        height: 260px;
+        box-shadow: inset 3px 0 10px #a7c1a8;
+        padding: 5px;
+        border-radius: 18px;
+      }
+
+      .recuo {
+        text-indent: 2em;
+      }
+
+      .negrito {
+        font-weight: bold;
+      }
+
+      .centralizar {
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .justificar {
+        text-align: justify;
+      }
+
+      .borda {
+        border: 3px solid black;
+        border-collapse: collapse;
+        padding: 6px;
+      }
+
+      #tabela {
+        width: 700px;
+      }
+
+      .ref {
+        margin: 0 auto;
+        padding-left: 8px;
+        box-shadow: inset 5px 0 0 #cfab8d;
+      }
+
+      a {
+        color: #3982c2;
+        text-decoration: wavy underline;
+        font-weight: bold;
+        background-color: #fdf7e4;
+        box-shadow: inset 0 0 8px #81a6c6;
+        border-radius: 15px;
+        padding: 3px;
+      }
+      a:hover {
+        color: #f38b8b;
+      }
+
+      .fundo1 {
+        background-color: #ded0b6;
+        box-shadow: inset 0 0 10px #bbab8c;
+      }
+      .fundo2 {
+        background-color: #f9dfdf;
+        box-shadow: inset 0 0 25px #bbab8c;
+      }
+
+      .titulo_pagina {
+        background-color: #ded0b6;
+        padding: 1px;
+        border-radius: 10px;
+        width: 950px;
+        margin: 0 auto;
+        box-shadow: inset 0 0 25px #bbab8c;
+      }
+
+      .titulos {
+        background-color: #ded0b6;
+        padding: 4px;
+        border-radius: 10px;
+        display: inline-block;
+        box-shadow: inset 0 0 5px #bbab8c;
+      }
+
+      #subtitulo {
+        text-align: justify;
+
+        width: 925px;
+        margin: 0 auto;
+        padding-left: 8px;
+        box-shadow: inset 5px 0 0 #cfab8d;
+        font-size: 18px;
+      }
+
+      .cc {
+        text-align: center;
+        font-size: 38px;
+      }
+
+      .espaco {
+        margin-bottom: 16px;
+      }
+
+      #importante {
+        margin: 0 auto;
+        padding-left: 8px;
+        box-shadow: inset 4px 0 3px #ff0800;
+        background-color: #ded0b6;
+        border-radius: 5px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="cc titulo_pagina">
+      <h1 class="cc">
+        Uso de Substâncias e Obesidade na Adolescência: Perspectiva Brasileira
+      </h1>
+    </div>
+
+    <br>
+
+    <div id="subtitulo">
+      <p>
+        A adolescência é uma janela crítica de desenvolvimento cerebral. No
+        Brasil, o consumo de substâncias e a obesidade são tratados como
+        questões de saúde pública interligadas a determinantes sociais, como
+        acesso a lazer, educação e segurança alimentar.
+      </p>
+    </div>
+
+    <img id="imagem1" src="imagem1.jpg" alt="Imagem de Exemplo">
+
+    <h2 class="titulos">1. Uso de Substâncias entre Adolescentes</h2>
+
+    <p class="recuo">
+      De acordo com o OBID, o uso de drogas no Brasil varia de experimentação
+      esporádica a padrões de dependência grave. O consumo precoce está
+      diretamente ligado a prejuízos no desenvolvimento do sistema nervoso
+      central, ainda em maturação.
+    </p>
+
+    <ul>
+      <li class="espaco">
+        <span class="negrito">Fatores de Risco e Proteção:</span> O portal Cria
+        Prevenção enfatiza que o "autocontrole" não é o único fator. O
+        fortalecimento de fatores de proteção (vínculo familiar estreito,
+        monitoramento parental positivo e suporte escolar) é mais eficaz do que
+        táticas de medo.
+      </li>
+
+      <li class="espaco">
+        <span class="negrito">Motivações:</span> Adolescentes buscam substâncias
+        para pertencer a grupos, lidar com o estresse ou automedicar sintomas de
+        transtornos mentais, como ansiedade e depressão.
+      </li>
+
+      <li class="espaco">
+        <span class="negrito">O "Efeito Pandemia":</span> Dados nacionais
+        indicam que o isolamento alterou os padrões de consumo; enquanto a
+        oferta de rua diminuiu em certos períodos, o uso intradomiciliar e o
+        consumo de álcool em ambiente familiar tornaram-se pontos de atenção.
+      </li>
+    </ul>
+
+    <h2 class="titulos">Substâncias mais Comuns no Brasil</h2>
+
+    <img id="imagem2" src="imagem2.jpg" alt=" Imagem de exemplo">
+
+    <table class="borda" id="tabela">
+      <tr class="borda">
+        <td class="borda centralizar fundo1">Ácool</td>
+        <td class="borda justificar fundo2">
+          A droga mais consumida. O Binge Drinking (beber pesado episódico) é
+          comum em festas, aumentando riscos de violência e acidentes.
+        </td>
+      </tr>
+      <tr>
+        <td class="borda centralizar fundo1">Tabaco e Vapes</td>
+        <td class="borda justificar fundo2">
+          Embora o cigarro comum tenha caído, os DEFs (Dispositivos Eletrônicos
+          para Fumar) são uma ameaça crescente, muitas vezes servindo como porta
+          de entrada para a nicotina.
+        </td>
+      </tr>
+      <tr>
+        <td class="borda centralizar fundo1">Canábis</td>
+        <td class="borda justificar fundo2">
+          Frequentemente a primeira droga ilícita experimentada. O uso precoce
+          está associado a déficits cognitivos e evasão escolar.
+        </td>
+      </tr>
+      <tr>
+        <td class="borda centralizar fundo1">Inalantes</td>
+        <td class="borda justificar fundo2">
+          Solventes e "lança-perfume" ainda possuem prevalência significativa em
+          determinados contextos socioeconômicos brasileiros.
+        </td>
+      </tr>
+    </table>
+    <br>
+
+    <p class="ref">
+      "Políticas de preço e taxação são reconhecidas pela OMS como medidas de
+      alta efetividade e baixo custo para reduzir o consumo nocivo de álcool e
+      seus impactos negativos na saúde da população. Evidências mostram que
+      aumentos de preço diminuem a demanda, com maior impacto entre jovens e
+      pessoas de baixa renda. Quando integradas a outras ações de redução de
+      disponibilidade e marketing, por exemplo — como restringir promoções,
+      cupons, happy hours etc. — essas medidas reduzem a iniciação precoce, a
+      intensidade dos episódios de risco e a continuidade do uso" (OBID, 2026,
+      seção:Preço & Taxação do Álcool)
+    </p>
+
+    <h2 class="titulos">2. Triagem e Intervenção (Modelo SBIRT)</h2>
+
+    <p class="recuo">
+      O Ministério da Saúde recomenda o modelo SBIRT (Triagem, Intervenção Breve
+      e Encaminhamento para Tratamento).
+    </p>
+
+    <ul>
+      <li class="espaco">
+        <span class="negrito">Ferramentas:</span> Em vez de focar apenas no
+        questionário CRAFFT, o Brasil utiliza o ASSIST (desenvolvido pela OMS e
+        adotado pelo SUS) para detectar o nível de risco do uso de substâncias.
+      </li>
+
+      <li class="espaco">
+        <span class="negrito">Exames Toxicológicos:</span> O Cria Prevenção e
+        órgãos de saúde alertam que testes de urina "surpresa" impostos pelos
+        pais podem quebrar a confiança e a aliança terapêutica, não sendo
+        recomendados como ferramenta única de diagnóstico.
+      </li>
+    </ul>
+
+    <h2 class="titulos">3. Obesidade na Adolescência</h2>
+
+    <p class="recuo">
+      Segundo dados do Vigitel e do Ministério da Saúde, a obesidade infantil e
+      juvenil cresceu no Brasil devido ao aumento do consumo de alimentos
+      ultraprocessados e ao sedentarismo.
+    </p>
+
+    <img id="imagem3" src="imagem3.jpg" alt=" Imagem de exemplo">
+
+    <p class="ref">
+      "O excesso de peso é um grave problema de saúde pública que tem
+      apresentado prevalências crescentes. Impacta negativamente na vida da
+      população a medida em que reduz a qualidade de vida e aumenta a carga de
+      doenças associadas" (LINHA DE CUIDADO ÀS PESSOAS COM SOBREPESO E OBESIDADE
+      ADULTO, 2022, p. 5).
+    </p>
+
+    <h3 class="titulos">
+      Diagnóstico pelo IMC (Critérios OMS adotados no Brasil):
+    </h3>
+
+    <ul>
+      <li class="espaco">
+        <span class="negrito">Sobrepeso:</span> IMC entre o percentil 85 e 95
+        para idade e sexo.
+      </li>
+
+      <li class="espaco">
+        <span class="negrito">Obesidade:</span> IMC igual ou superior ao
+        percentil 95.
+      </li>
+    </ul>
+
+    <p>
+      <span class="negrito" id="importante">Importante:</span> O diagnóstico no
+      SUS não avalia apenas o peso, mas o contexto de segurança alimentar e a
+      presença de comorbidades como Hipertensão e Diabetes Tipo 2, cada vez mais
+      precoces.
+    </p>
+
+    <p class="ref">
+      "A publicidade de alimentos ultraprocessados domina os anúncios comerciais
+      de alimentos, frequentemente veicula informações incorretas ou incompletas
+      sobre alimentação e atinge, sobretudo, crianças e jovens" (Guia alimentar
+      para a população brasileira, 2014, p. 118)
+    </p>
+
+    <h2 class="titulos">4. Estratégias de Prevenção e Tratamento</h2>
+
+    <p class="recuo">
+      O tratamento no Brasil é feito preferencialmente através da rede RAPS
+      (Rede de Atenção Psicossocial), com destaque para os CAPSij (Centros de
+      Atenção Psicossocial Infantojuvenil).
+    </p>
+
+    <img id="imagem4" src="imagem4.jpg" alt="Imagem de exemplo">
+
+    <ol>
+      <li class="espaco">
+        <span class="negrito">Abordagem Multidisciplinar:</span> Envolvimento de
+        psicólogos, nutricionistas e assistentes sociais.
+      </li>
+
+      <li class="espaco">
+        <span class="negrito">Redução de Danos:</span> Foco em minimizar as
+        consequências negativas do uso quando a abstinência imediata não é
+        alcançada.
+      </li>
+
+      <li class="espaco">
+        <span class="negrito">Ambiente Familiar:</span> Pais devem ser modelos.
+        O consumo excessivo de álcool pelos pais é um preditor direto para o uso
+        precoce pelos filhos.
+      </li>
+    </ol>
+
+    <br><br>
+
+    <table class="alinhar5">
+      <tr>
+        <td class="alinhar5">
+          <img id="imagem5" src="imagem5.jpg" alt=" Imagem de exemplo">
+        </td>
+      </tr>
+    </table>
+    <br><br>
+    <h1 class="titulos">Referências Bibliográficas</h1>
+
+    <p class="ref">
+      1. Ministério da Saúde / gov.br BRASIL. Ministério da Saúde. Secretaria de
+      Atenção Primária à Saúde. Guia Alimentar para a População Brasileira. 2.
+      ed. Brasília: Ministério da Saúde, 2014. Disponível em:
+      <a
+        href="https://www.gov.br/saude/pt-br/assuntos/saude-brasil/publicacoes-para-promocao-a-saude/guia_alimentar_populacao_brasileira_2ed.pdf/view"
+        >Acessar Link</a
+      >. Acesso em: 9 mar. 2026.
+    </p>
+    <br>
+
+    <p class="ref">
+      2. BRASIL. Ministério da Saúde. Linha de Cuidado do Sobrepeso e da
+      Obesidade na Adolescência. Brasília: Secretaria de Atenção Especializada à
+      Saúde, 2022. Disponível em:
+      <a
+        href="https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2022-06/linha_de_cuidado_sobrepeso_e_obesidade_diagramada_final.pdf"
+        >Acessar Link</a
+      >. Acesso em: 9 mar. 2026.
+    </p>
+    <br>
+
+    <p class="ref">
+      3. OBID (Observatório Brasileiro de Informações sobre Drogas) BRASIL.
+      Ministério da Justiça e Segurança Pública. Secretaria Nacional de
+      Políticas sobre Drogas (SENAD). Relatórios e Dados Estatísticos sobre o
+      Consumo de Substâncias no Brasil. Brasília: OBID, 2024. Disponível em:
+      <a
+        href="https://www.gov.br/mj/pt-br/assuntos/sua-protecao/politicas-sobre-drogas/obid"
+        >Acessar Link</a
+      >. Acesso em: 9 mar. 2026.
+    </p>
+  </body>
+</html>
